@@ -7,7 +7,6 @@
  */
 void jack_bauer(void)
 {
-
 	int a;
 	int b;
 
@@ -21,8 +20,6 @@ void jack_bauer(void)
 			_putchar (b / 10 + '0');
 			_putchar (b % 10 + '0');
 			_putchar ('\n');
-
-		}	
+		}
 	}
-
 }
