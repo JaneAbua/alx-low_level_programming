@@ -2,8 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - computes and prints the sum of all the multiples
- * 
+ * main - computes and prints the sum of all the multiples 
  * Return: 0
  */
 int main(void)
