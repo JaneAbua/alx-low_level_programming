@@ -47,11 +47,8 @@ int _atoi(char *s)
 }
 
 /**
- *
  * main - adds two positive number
- *
  * @argc: number of arguments
- *
  * @argv: array of arguments
  *
  * Return: 0 (Success), or 1 (Success)
@@ -86,4 +83,3 @@ int main(int argc, char *argv[])
 	printf("%d\n", sum);
 	return (0);
 }
-
