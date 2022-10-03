@@ -12,7 +12,7 @@ int _atoi(char *s)
 	int i, d, n, len, f, digit;
 
 	i = 0;
-	d = 0;			
+	d = 0;
 	n = 0;
 	len = 0;
 	f = 0;
@@ -32,7 +32,7 @@ int _atoi(char *s)
 			if (d % 2)
 				digit = -digit;
 			n = n * 10 + digit;
-			f = 1;						
+			f = 1;
 			if (s[i + 1] < '0' || s[i + 1] > '9')
 				break;
 			f = 0;
@@ -49,7 +49,7 @@ int _atoi(char *s)
 /**
  * main - adds two positive number
  * @argc: number of arguments
- * @argv: array of arguments
+ * @argv: array of arguents
  *
  * Return: 0 (Success), or 1 (Success)
  */
